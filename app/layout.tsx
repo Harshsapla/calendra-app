@@ -23,13 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  //  <ClerkProvider>
+   <ClerkProvider>
     <html lang="en">
-    <body className="{">
+    <body className={>`${geistSans.variable} ${getPossibleInstrumentationHookFilenames.variable} antialiased`}
       
     </body>
 
     </html>
-    //  </ClerkProvider>
+     </ClerkProvider>
   );
 }
